@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IStalkActivity!</string>
+    <string name="app_name">IStalk</string>
+    <string name="labelUsernameInfoString">Username:</string>
+    <string name="labelHostInfoString">Host</string>
+    <string name="labelPortInfoString">Port</string>
+    <string name="btnConnectString">Sign In</string>
+    <string name="btnMapActivity">Start Stalking!</string>
+    <string name="copyright">iStalker App\nCopyright @ Starting Point 0.0</string>
+    <string name="menuUserGender">Gender</string>
+    <string name="menuBgColour">Background Colour</string>
+    <string name="labelCheckSaved">Remember</string>
+</resources>

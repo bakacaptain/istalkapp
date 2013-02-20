@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:text="@string/btnMapActivity"
+		android:id="@+id/btnMapActivity" android:onClick="onStartMapActivity"></Button>
+	<RelativeLayout android:layout_width="match_parent"
+		android:id="@+id/relativeLayout1" android:layout_height="match_parent">
+		<TextView android:layout_width="wrap_content" android:id="@+id/textView1"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true" android:lines="2"
+			android:text="@string/copyright" android:padding="5px"
+			android:textSize="16px"></TextView>
+	</RelativeLayout>
+</LinearLayout>    

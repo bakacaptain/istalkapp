@@ -1,0 +1,77 @@
+﻿<Window x:Class="GpsBroadcaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Extenders="clr-namespace:Extenders"
+        Title="GPS Broadcaster" Height="700" Width="600" Icon="Resources/ic_launcher_istalk_hdpi.png">
+
+    <Grid Background="{StaticResource {x:Static SystemColors.ControlBrushKey}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Menu -->
+        <Menu Grid.Row="0">
+            <MenuItem Header="Menu">
+                <MenuItem Header="Exit" Command="{Binding Path=CloseCommand}" />
+            </MenuItem>
+        </Menu>
+
+        <!-- Status Bar -->
+        <StatusBar Grid.Row="2">
+            <StatusBarItem Name="statusLabel">
+                <StatusBarItem.Content>
+                    Listening...
+                </StatusBarItem.Content>
+            </StatusBarItem>
+        </StatusBar>
+
+        <!-- Content -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <GroupBox Header="Connections" Margin="5">
+                <ListView ItemsSource="{Binding Path=UserList}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Username" DisplayMemberBinding="{Binding ClientID.Username}" />
+                            <GridViewColumn Header="Remote IP" DisplayMemberBinding="{Binding RemoteEndPoint}" />
+                            <GridViewColumn Header="Local IP" DisplayMemberBinding="{Binding LocalEndPoint}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </GroupBox>
+
+            <GridSplitter HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="5"></GridSplitter>
+
+            <GroupBox Grid.Row="1" Header="User Locations" Margin="5">
+                <ListView ItemsSource="{Binding Path=UserLocations}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Username" DisplayMemberBinding="{Binding Username}" />
+                            <GridViewColumn Header="Gender ID" DisplayMemberBinding="{Binding Gender}" />
+                            <GridViewColumn Header="BG Color ID" DisplayMemberBinding="{Binding BgColour}" />
+                            <GridViewColumn Header="Latitude" DisplayMemberBinding="{Binding GeoPoint.Latitude}" />
+                            <GridViewColumn Header="Longtitude" DisplayMemberBinding="{Binding GeoPoint.Longtitude}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </GroupBox>
+
+            <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="5"></GridSplitter>
+
+            <GroupBox Grid.Row="2" Header="Console" Margin="5">
+                <ListBox ItemsSource="{Binding Path=Actions}" Extenders:ListBoxExtenders.AutoScrollToEnd="True">
+                </ListBox>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>

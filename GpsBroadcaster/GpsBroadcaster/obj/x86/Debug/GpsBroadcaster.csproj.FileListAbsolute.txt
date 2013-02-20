@@ -1,0 +1,17 @@
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\bin\Debug\GpsBroadcaster.exe
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\bin\Debug\GpsBroadcaster.pdb
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\MainWindow.baml
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\MainWindow.g.cs
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\App.g.cs
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster_MarkupCompile.cache
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster.g.resources
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster.Properties.Resources.resources
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster.exe
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster.pdb
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\obj\x86\Debug\GpsBroadcaster_MarkupCompile.lref
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\bin\Debug\ServerNetworkConnections.dll
+D:\IT_Engineering\CSharp_Workspace\GpsBroadcaster\GpsBroadcaster\bin\Debug\ServerNetworkConnections.pdb

@@ -1,0 +1,20 @@
+istalkapp
+
+
+1. What is it?
+It is an android application which updates it's GPS position to a central server. The server is a simple C# WPF application - whereas the client is a Android 2.3 application made to run on a Samsung Galaxy SII.
+
+
+2. Why did you make it?
+This mini-project was made for academic use. It shows how to take advantage of sensors on a smartphone. I had just got a Samsung Galaxy SII in May 2011 running "Gingerbread" (Android 2.3).
+
+
+3. How do I make it work?
+The C# server listens on port 50000 per default. We used an eclipse based IDE to debug/test the Android application on a Samsung Galaxy S2.  
+
+
+4. Requirements and disclaimer
+Android SDK for developing Android 2.3 applications - it may not work with never versions. If you want to run it on a device, it must support GPS. All artwork is original and may not be used commercially without my concent. We take no responsibility for the consequences of this application. This was simply made for academic usage. 
+
+
+Last edit: 27th June 2014
